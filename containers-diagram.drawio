@@ -32,9 +32,9 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="JDBC" c4Description="Lire/Ecrire" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="7PB-G8k_6qfldRlgXdsR-8">
+        <object placeholders="1" c4Type="Relationship" c4Technology="SQL/JDBC" c4Description="Lire/Ecrire des données" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="7PB-G8k_6qfldRlgXdsR-8">
           <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" target="7PB-G8k_6qfldRlgXdsR-3">
-            <mxGeometry relative="1" width="240" x="0.0031" as="geometry">
+            <mxGeometry relative="1" width="240" x="0.4348" y="40" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
                 <mxPoint x="580" y="580" />
@@ -51,7 +51,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Authentifier l&#39;utilisateur" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ueb7GhXLKm66FkxR_9h1-4">
-          <mxCell edge="1" parent="1" source="7PB-G8k_6qfldRlgXdsR-2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1.007;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.749;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" target="ueb7GhXLKm66FkxR_9h1-1">
+          <mxCell edge="1" parent="1" source="7PB-G8k_6qfldRlgXdsR-2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1.007;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.749;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="ueb7GhXLKm66FkxR_9h1-1">
             <mxGeometry relative="1" width="240" x="-0.0008" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
@@ -65,7 +65,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Récupérations des rôles" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ueb7GhXLKm66FkxR_9h1-6">
-          <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;">
+          <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;">
             <mxGeometry relative="1" width="240" as="geometry">
               <Array as="points">
                 <mxPoint x="300" y="540" />
@@ -77,7 +77,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Vérification des sessions" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ueb7GhXLKm66FkxR_9h1-7">
-          <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="ueb7GhXLKm66FkxR_9h1-1">
+          <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="ueb7GhXLKm66FkxR_9h1-1">
             <mxGeometry relative="1" width="240" x="-0.0833" y="10" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
